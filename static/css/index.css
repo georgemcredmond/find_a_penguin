@@ -1,0 +1,191 @@
+body {
+	background-color: #ccf5f5;;
+}
+
+#gameholder {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#title {
+	width: 600px;
+	height: 150px;
+	background-image:url("../media/penguin_title.png");
+}
+
+/*This pseudo class is applied when the mouse hovers over the 1st penguin div*/
+.penguin1:hover {
+	background-image:url("../media/mound_1_hover.png");
+	cursor: pointer;
+}
+
+/*This pseudo class is applied when our 1st penguin div is clicked */
+.penguin1:active {
+	background-image:url("../media/penguin_1.png");
+}
+
+/* This is the style for our first penguin div */
+.penguin1 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image:url("../media/mound_1.png");
+}
+
+/* This is the penguin 2 div */
+
+.penguin2:hover {
+	background-image:url("../media/mound_2_hover.png");
+	cursor: pointer;
+}
+
+.penguin2:active {
+	background-image:url("../media/penguin_2.png");
+}
+
+.penguin2 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image:url("../media/mound_2.png");
+}
+
+/* This is the penguin 3 div */
+
+.penguin3:hover {
+	background-image:url("../media/mound_3_hover.png");
+	cursor: pointer;
+}
+
+.penguin3:active {
+	background-image:url("../media/penguin_3.png");
+}
+
+.penguin3 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image:url("../media/mound_3.png");
+}
+
+/* This is the penguin 4 div */
+
+.penguin4:hover {
+	background-image:url("../media/mound_4_hover.png");
+	cursor: pointer;
+}
+
+.penguin4:active {
+	background-image:url("../media/penguin_4.png");
+}
+
+.penguin4 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image:url("../media/mound_4.png");
+}
+
+/* This is the penguin 5 div */
+
+.penguin5:hover {
+	background-image:url("../media/mound_5_hover.png");
+	cursor: pointer;
+}
+
+.penguin5:active {
+	background-image:url("../media/penguin_5.png");
+}
+
+.penguin5 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image:url("../media/mound_5.png");
+}
+
+/* This is the penguin 6 div */
+
+.penguin6:hover {
+	background-image:url("../media/mound_6_hover.png");
+	cursor: pointer;
+}
+
+.penguin6:active {
+	background-image:url("../media/penguin_6.png");
+}
+
+.penguin6 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image:url("../media/mound_6.png");
+}
+
+/* This is the penguin 7 div */
+
+.penguin7:hover {
+	background-image:url("../media/mound_7_hover.png");
+	cursor: pointer;
+}
+
+.penguin7:active {
+	background-image:url("../media/penguin_7.png");
+}
+
+.penguin7 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image:url("../media/mound_7.png");
+}
+
+/* This is the penguin 8 div */
+
+.penguin8:hover {
+	background-image:url("../media/mound_8_hover.png");
+	cursor: pointer;
+}
+
+.penguin8:active {
+	background-image:url("../media/penguin_8.png");
+}
+
+.penguin8 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image:url("../media/mound_8.png");
+}
+
+/*This is the yeti div */
+#yeti:hover {
+	background-image: url("../media/mound_9_hover.png");
+	cursor: pointer;
+}
+
+#yeti:active {
+	background-image: url("../media/yeti.png");
+}
+
+#yeti {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url("../media/mound_9.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

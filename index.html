@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Whack-A-Penguin</title>
+	<link rel="stylesheet" href="static/css/index.css" media="screen">
+	<script src="static/js/index.js"></script>
+</head>
+<body>
+	<!-- This is the frame for our game. It holds and centers all other elements-->
+	<div id="gameholder">
+		<!--This holds the title image-->
+		<div id="title"></div>
+		<!--This holds our penguins and yeti-->
+		<div class="penguin1"></div>
+		<div class="penguin2"></div>
+		<div class="penguin3"></div>
+		<div id="yeti"></div>
+		<div class="penguin5"></div>
+		<div class="penguin6"></div>
+		<div class="penguin7"></div>
+		<div class="penguin8"></div>
+		<div class="penguin4"></div>
+	</div>
+	<script>
+		document.getElementById("yeti").addEventListener("click", function () {
+			alert("Arrrrrrr I'm the YETI!!");
+		}, false);
+	</script>
+</body>
+</html>
