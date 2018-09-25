@@ -1,2 +1,2 @@
-# whack_a_penguin
-JavaScript "Whack-A-Penguin" Game
+# find_a_penguin
+JavaScript "Find-A-Penguin" Game
