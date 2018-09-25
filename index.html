@@ -2,30 +2,34 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Whack-A-Penguin</title>
-	<link rel="stylesheet" href="static/css/index.css" media="screen">
-	<script src="static/js/index.js"></script>
+	<title>Penguin Game</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
-<body>
-	<!-- This is the frame for our game. It holds and centers all other elements-->
+<body onload="newGame()">
+	<!-- This is the frame for our game. It holds and centers all other elements -->
 	<div id="gameholder">
-		<!--This holds the title image-->
 		<div id="title"></div>
-		<!--This holds our penguins and yeti-->
-		<div class="penguin1"></div>
-		<div class="penguin2"></div>
-		<div class="penguin3"></div>
-		<div id="yeti"></div>
-		<div class="penguin5"></div>
-		<div class="penguin6"></div>
-		<div class="penguin7"></div>
-		<div class="penguin8"></div>
-		<div class="penguin4"></div>
+		<div class="mound1"></div>
+		<div class="mound2"></div>
+		<div class="mound3"></div>
+		<div class="mound4"></div>
+		<div class="mound5"></div>
+		<div class="mound6"></div>
+		<div class="mound7"></div>
+		<div class="mound8"></div>
+		<div class="mound9"></div>
 	</div>
+	<audio id = "audio" src="media/roar.wav" autostart="false"></audio>
 	<script>
-		document.getElementById("yeti").addEventListener("click", function () {
-			alert("Arrrrrrr I'm the YETI!!");
-		}, false);
+		function newGame() {
+			var ranNum = Math.floor(Math.random() * 9) + 1;
+			document.getElementsByTagName("div")[ranNum].setAttribute("id", "yeti"); 
+			document.getElementById("yeti").addEventListener("click", function(){
+				var sound = document.getElementById("audio");
+				sound.play();
+				alert("ROWWRR! I'm the YETI!! You LOSE!!!!!");
+			}, false);
+		}
 	</script>
 </body>
 </html>
