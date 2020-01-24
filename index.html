@@ -1,12 +1,16 @@
-<!doctype html>
+<!-- Find the Penguins Game
+     George McRedmond 1/23/2020 -->
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Penguin Game</title>
-	<link rel="stylesheet" href="styles.css">
+	<title>Find-a-Penguin Game</title>
+	<link href="styles.css" rel="stylesheet" />
+	<script src="script.js" defer></script>
 </head>
-<body onload="newGame()">
-	<!-- This is the frame for our game. It holds and centers all other elements -->
+<body>
+	<!-- This is the frame for the game. It holds all other divs -->
 	<div id="gameholder">
 		<div id="title"></div>
 		<div class="mound1"></div>
@@ -19,17 +23,11 @@
 		<div class="mound8"></div>
 		<div class="mound9"></div>
 	</div>
-	<audio id = "audio" src="media/roar.wav" autostart="false"></audio>
-	<script>
-		function newGame() {
-			var ranNum = Math.floor(Math.random() * 9) + 1;
-			document.getElementsByTagName("div")[ranNum].setAttribute("id", "yeti"); 
-			document.getElementById("yeti").addEventListener("click", function(){
-				var sound = document.getElementById("audio");
-				sound.play();
-				alert("ROWWRR! I'm the YETI!! You LOSE!!!!!");
-			}, false);
-		}
-	</script>
+	
+	<input type="button" id="button" value="Play Again" />
+	
+	<audio id="audio" src="media/roar.wav" autostart="false"></audio>
 </body>
-</html>
+</html>	 
+	 
+	 
